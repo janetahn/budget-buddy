@@ -1,22 +1,20 @@
-# 💰 BudgetBuddy
-
 **BudgetBuddy** is a simple budgeting app built with **SwiftUI** and the **MVVM** architectural pattern. It displays a list of budget categories and allows users to view all transactions within each category.
 
 This project was created to **practice SwiftUI layout, data fetching, navigation, and MVVM design principles**.
 
 ---
 
-## 🧠 Features
+## Features
 
-- 📊 List of budget categories with spending limits
-- 📂 Tap a category to view its transactions
-- 🔁 Real-time data fetching using `URLSession` and async/await
-- 🧱 Modular architecture using MVVM
-- 💡 Clean UI built entirely with SwiftUI
+- List of budget categories with spending limits
+- Tap a category to view its transactions
+- Real-time data fetching using `URLSession` and async/await
+- Modular architecture using MVVM
+- Clean UI built entirely with SwiftUI
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 This app follows the **Model-View-ViewModel (MVVM)** pattern:
 
@@ -26,7 +24,7 @@ This app follows the **Model-View-ViewModel (MVVM)** pattern:
 
 ---
 
-### 📦 Data Source
+### Data Source
 
 The app uses a sample JSON file hosted on GitHub Pages to simulate API responses. You can view it here:
 
@@ -39,18 +37,7 @@ The JSON includes:
 
 ---
 
-## 🧪 Learning Goals
-
-This project helped me:
-
-- Practice **decoding JSON** from a remote URL into Swift model structs.
-- Implement **SwiftUI views** with `NavigationView`, `List`, and `NavigationLink`.
-- Understand how to **pass data between views** and use `@StateObject`, `@ObservedObject`, and `@Published`.
-- Apply the **MVVM pattern** to keep logic clean and testable.
-
----
-
-## 🧭 Getting Started
+## How to:
 
 To run the project:
 
@@ -60,7 +47,7 @@ To run the project:
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 - Add progress bars to show how much of the budget is spent.
 - Include transaction search and filtering.
